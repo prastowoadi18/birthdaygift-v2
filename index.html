@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>BirthdayGift</title>
+    
+    <link rel="icon" href="favicon.ico">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Sacramento&family=Ubuntu&display=swap" rel="stylesheet">
+
+    <!-- CSS Stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/b30fb691e3.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script src="index.js"></script>
+    
+</head>
+
+<body>
+    
+  <section id="title">
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#title">
+            <img class="img-title" src="images/asset-6.png" alt="img"> birthdaygift
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <li class="nav-item">
+                    <a class="nav-link" href="#ucapan">Ucapan</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#maihop">Maihop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#hope">Hihihi</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Title -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6">
+                <img class="heading-img" src="images/asset-1.jpeg" alt="heading-img">
+            </div>
+            <div class="col-lg-6">
+               <h1 class="heading-text">Selamat Ulang Tahun Sayang <i class="far fa-kiss-wink-heart fa-1x icon-heading"></i></h1>
+               <h4 class="heading-text_2">Dari pacarmu sing nyengiti <i class="fab fa-angellist fa-1x"></i></h4>
+               <h6 class="heading-text_3">Sambil baca biar enak ada bekson nya yang, jadi klik Play!!!</h6>
+               <button type="button" class="btn btn-outline-dark musicBtn" onclick="play()">
+                <i class="fas fa-play"></i> Play
+              </button>
+              <button type="button" class="btn btn-outline-dark musicBtn1" onclick="stop()">
+                <i class="fas fa-stop"></i> Stop
+              </button>
+               <audio id="audio" src="media/Falling Feathers - Happy Birthday To You (online-video-cutter.com).mp3"></audio>
+            </div>
+        </div>
+    </div>
+  </section>
+
+
+  <!-- Ucapan -->
+  <section id="ucapan">
+    <div class="container-ucapan">
+      <div class="row">
+        <div class="col-lg-6">
+          <h2 class="text-ucapan_1">Ucapan <i class="far fa-kiss-beam"></i></h2>
+          <p class="text-ucapan_2">
+            Selamat ulang tahun ya ayang, pakai bahasa indo aja yakk ? wkwkkw, gak iso bahasa engres. Semoga Tuhan selalu memberi berkat di kehidupan ayang dan ayang juga harus selalu menjadi berkat buat orang lain yaa!! Doa yang terbaik buat ayangku. Sayang Ayangg hihii Lupyuu By...
+          </p>
+          <img src="images/asset-3.jpeg" alt="" class="ucapan-img">
+        </div>
+        <div class="col-lg-6">
+          <img class="ucapan-img_2" src="images/asset-2.png" alt="ucapan-img_2">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Maihop -->
+  <section id="maihop">
+    <div class="container-maihop">
+      <h2 class="text-maihope_1">Mai Hop buat Ayang <i class="far fa-grin-beam-sweat"></i></h2>
+      <div class="row">
+        <div class="col-lg-4">
+          <p class="text-maihope_2">
+            Harapanku yang pertama buat ayang, semoga ayang selalu diberi kesehatan, jadi bisa temenin aku terus. Sama apa ya jangan bobo pagi pagi ayangg! selain takut ayang aneh aneh, gak baik buat kesehatan juga.
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <p class="text-maihope_2">
+            Selanjutnya tetep semangat ayang cari kerja yaa!! gak usah khawatir semua punya waktunya sendiri sendiri, percaya aja sama Tuhan dan berusaha terus ayang, Aku bakal tetep support ayang kog apapun itu.Okay?
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <p class="text-maihope_2">
+            Terakhir sayang teruss sama kak IYOT yoo, gak boleh gak sayang okay byyy!! perhatiin ka IYOT, sayang sayang kak IYOT hihihihi, makasih juga sampai sekarang ayang selalu bilang ke aku apapun itu. Luppyuuu,hihi
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Picture -->
+
+  <section id="picture">
+    <div class="container-picture">
+      <img class="img-picture" src="images/asset-4.png" alt="picture-img">
+    </div>
+  </section>
+
+
+  <!-- Hope -->
+  <section id="hope">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6">
+          <img class="img-hope" src="images/asset-5.png" alt="hope-picture">
+        </div>
+        <div class="col-lg-6">
+          <div class="box-hope">
+            <p class="hope-text_2">Banyak harapan, banyak tantangan kedepan, apapun yang kita laluin nanti, kita jalanin bareng-bareng Okay Ayang!!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <!-- Happy Valentine -->
+  <section id="valentine">
+    <div class="container-fluid">
+      <h2 class="text-valentine">Happy Valentine's Day<i class="far fa-kiss-beam"></i></h2>
+      <div class="row">
+        <div class="col-lg-12">
+          <img src="images/imgn2.png" alt="imgn2" class="imgn1">
+          <img src="images/imgn1.png" alt="imgn1" class="imgn2">
+          <img src="images/imgn3.png" alt="imgn3" class="imgn3">
+          <img src="images/imgn4.png" alt="imgn4" class="imgn4">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="box-valentine">
+            <p class="valentine-text">
+              Selamat hari kasih sayang byyy!!! Yang konon katanya jatuh pada tanggal 14 Februari ini wkwk, semoga di hari yang katanya penuh kasih sayang ini aku selalu bisa jadi pacar yang bisa ayang andalkan di kondisi apapun dan jadi pacar yang selalu ayangg senengi ora jadi pacar sing nyengiti hihihi, Maaf mungkin aku belom bisa kayak cowo cowo lain yang bisa memberikan kasih sayang yang berlebih, aku sampai sekarang masi belajar buat jadi yang terbaik buat ayang. Coklat e sesok tak tukokke neng Alfamidi XIXIXIXI.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+  <!-- Video -->
+  <section id="video">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="box-video">
+            <p class="video-text">Terimakasih ayang udah mau jadi pacarku dan mau milih aku untuk ayang ajak berjuang bareng hihihi, semoga aku tetap bisa selalu di samping ayang di hari ulang tahun ayang yang berikut-berikutnya dan aku juga selalu diberi kesehatan supaya bisa terus sama ayang sampe tuwir. Aminn...</p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <video class="video-class" controls>
+            <source src="media/asset-vid.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer id="footer">
+    <i class="social-icon far fa-smile-wink"></i>
+    <i class="social-icon far fa-grin-beam-sweat"></i>
+    <i class="social-icon far fa-grin-hearts"></i>
+    <i class="social-icon far fa-kiss-beam"></i>
+    <p>Dibuat Dengan Tresno.</p>
+  </footer>
+</html>

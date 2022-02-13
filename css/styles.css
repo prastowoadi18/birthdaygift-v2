@@ -1,0 +1,231 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+hr {
+    border-top: 7px dotted #8f8f8f;
+    margin: auto;
+    background-color: transparent;
+    opacity: 1;
+    width: 5%;
+}
+
+.container-fluid {
+    padding: 5% 12% 7%;
+}
+
+/* Heading */
+.heading-img {
+    width: 30%;
+    transform: rotate(-20deg);
+    position: absolute;
+}
+.heading-text {
+    margin-top: 6%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 2.3rem;
+    line-height: 1.2;
+}
+.heading-text_2 {
+    font-family: 'Ubuntu', sans-serif;
+}
+.heading-text_3 {
+    font-style: italic;
+    margin-top: 3%;
+}
+.musicBtn {
+    margin-top: 2%;
+    margin-right: 3%;
+}
+.musicBtn1 {
+    margin-top: 2%;
+}
+.img-title {
+    width: 8%;
+    transform: rotate(15deg);
+    margin-right: 2%;
+}
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 2.3rem;
+}
+
+/* Ucapan */
+
+.container-ucapan {
+    padding: 20% 12% 7%;
+}
+#ucapan {
+    padding: 5% 12%;
+    text-align: center;
+}
+.ucapan-img {
+    margin-top: 10%;
+    width: 100%;
+}
+.ucapan-img_2 {
+    width: 80%;
+    margin-left: 15%;
+}
+.text-ucapan_1{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1.2px;
+    font-weight: 900;
+    text-align: left;
+}
+.text-ucapan_2 {
+    margin-top: 6%;
+    text-align: left;
+}
+
+/* MaihHop */
+#maihop {
+    text-align: center;
+}
+.container-maihop {
+    padding: 5% 14% 7%;
+}
+.text-maihope_1 {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1.2px;
+    font-weight: 900;
+}
+.text-maihope_2 {
+    padding: 2% 8%;
+    margin-top: 15%;
+}
+
+/* Picture */
+.container-picture {
+    padding: 3% 12% 7%;
+}
+.img-picture{
+    width: 100%;
+}
+
+/* Hope */
+#hope {
+    text-align: center;
+}
+.img-hope{
+    width: 50%;
+}
+.box-hope {
+    margin: 25% auto;
+    width: 80%;
+}
+
+/* Footer */
+.social-icon {
+    margin: 20px 5px;
+    color: #8f8f8f;
+    cursor: pointer;
+}
+#footer {
+    padding: 3% 15%;
+    text-align: center;
+}
+
+/* Video */
+#video {
+    text-align: center;
+}
+.video-class {
+    width: 50%;
+}
+.box-video {
+    margin: 33% auto;
+    width: 73%;
+}
+
+/* Valentine */
+#valentine {
+    text-align: center;
+}
+.imgn1{
+    width: 15%;
+    margin-right: 5%;
+}
+.imgn2{
+    width: 15%;
+    margin-right: 5%;
+}
+.imgn3{
+    width: 15%;
+    margin-right: 5%;
+}
+.imgn4{
+    width: 15%;
+}
+.text-valentine{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1.2px;
+    font-weight: 900;
+    margin-bottom: 5%;
+}
+.valentine-text {
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 80%;
+}
+
+@media (max-width: 1028px){
+    p{
+        font-size: 1.2rem;
+    }
+    #title {
+        text-align: center;
+    }
+    .heading-img {
+        position: static;
+        transform: rotate(0);
+        width: 70%;
+    }
+    .heading-text_3 {
+        margin-top: 5%;
+    }
+    .container-ucapan {
+        padding: 0% 12% 7%;
+    }
+    #ucapan {
+        padding: 0% 10%;
+    }
+    .text-ucapan_1{
+        text-align: center;
+    }
+    .text-ucapan_2 {
+        text-align: center;
+    }
+    .ucapan-img_2 {
+        width: 80%;
+        margin-top: 7%;
+        margin-left: 0%;
+    }   
+    .text-maihope_2 {
+        padding: 0% 8%;
+        margin-top: 4%;
+    } 
+    .box-hope {
+        margin: 10% auto;
+        width: 80%;
+    }
+    .navbar-brand {
+        width: 60%;
+        font-size: 1.5rem;
+    }
+    .img-title {
+        width: 20%;
+        transform: rotate(0deg);
+        margin-right: 0%;
+    }
+    .box-video {
+        margin: 10% auto;
+    }
+    .valentine-text {
+        margin-left: 0%;
+        margin-top: 5%;
+        width: 100%;
+    }
+}
